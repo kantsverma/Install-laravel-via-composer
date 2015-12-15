@@ -1,0 +1,28 @@
+Below are the few steps to install the laravel on local machine :- 
+
+Install laravel via laravel installer windows xampp/wamp steps :-
+
+1. It’s requires Composer to manage its dependencies. so first need to download composer from here https://getcomposer.org/download
+2. After download composer, install composer on your system.
+3. Run below command to check composer has installed successfully
+	# check composer working
+	composer
+	
+4. After composer installed successfully we need to install laravel installer via composer so open windows command prompt and run below command to install.
+	# installing installer
+	composer global require "laravel/installer=~1.1"
+
+5. After install it’s installer we need to set PATH environment variable for setup PATH run below command	
+	# setting up env path
+	set PATH=%PATH%;%USERPROFILE%\AppData\Roaming\Composer\vendor\bin
+
+6. Test the laravel installed or not 
+	# testing command 
+	laravel
+	
+7. Now We need to change directory where we want to install laravel so first change and go to your preferred location to install then run below command to install.	
+	# installing 
+	laravel new laranew
+	
+8) Now you have done with Install laravel via laravel installer windows (xampp/wamp). and open url on http://localhost/laranew and bam.	
+
